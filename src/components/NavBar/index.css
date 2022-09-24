@@ -1,0 +1,43 @@
+/* Write your code here. */
+.nav-bar {
+  background-color: rgb(155, 127, 127);
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.emoji-logo {
+  align-self: flex-start;
+  margin-left: 70px;
+  height: 40px;
+  width: 40px;
+}
+.emogi-logo-name {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.name-last {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
